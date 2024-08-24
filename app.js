@@ -10,4 +10,7 @@ app.get('/hello', (req, res, next) => {
     res.send("hello")
 })
 
+app.get("/hi", (req, res) => {
+    res.send('hoooo')
+})
 export default app;
